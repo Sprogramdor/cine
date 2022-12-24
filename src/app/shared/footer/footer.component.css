@@ -1,0 +1,21 @@
+@import url("../../../styles.css");
+
+.footer {
+  background-color: var(--light-blue);
+  padding: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons__icon {
+  background-color: var(--dark-blue);
+  border-radius: 5rem;
+  padding: 0.5rem;
+}
+
+.icons__icon:hover {
+  background-color: var(--white);
+}
